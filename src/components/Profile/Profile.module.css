@@ -45,8 +45,8 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 0;
   margin-bottom: 0;
-  list-style: none;
   text-align: center;
+  list-style: none;
 }
 .label {
   display: block;

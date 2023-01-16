@@ -1,0 +1,21 @@
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.isOnline {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.statusOnline {
+  background-color: green;
+}
+.statusOffline {
+  background-color: red;
+}
+.name {
+  margin-left: 15px;
+  font-size: 25px;
+}

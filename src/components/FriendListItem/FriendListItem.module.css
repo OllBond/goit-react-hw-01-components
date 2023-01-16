@@ -1,18 +1,27 @@
 .item:not(:last-child) {
   margin-bottom: 20px;
+  list-style: none;
 }
-.isOnline {
+/* .isOnline {
   width: 15px;
   height: 15px;
   border: none;
   border-radius: 50%;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 .statusOnline {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
   background-color: green;
 }
 .statusOffline {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
   background-color: red;
 }
 .name {

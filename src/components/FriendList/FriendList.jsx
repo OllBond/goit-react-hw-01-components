@@ -29,15 +29,3 @@ FriendList.propType = {
     })
   ),
 };
-
-// return friends.map(friend => {
-//     return (
-//       <ul className={css.friendList} key={friend.id}>
-//         <FriendListItem
-//           avatar={friend.avatar}
-//           name={friend.name}
-//           isOnline={friend.isOnline}
-//         />
-//       </ul>
-//     );
-//   });
